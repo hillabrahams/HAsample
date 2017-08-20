@@ -1,0 +1,192 @@
+﻿body {
+}
+
+.editstatuswidth {
+    width: 195px;
+}
+
+.tagnamewidth {
+    width: 320px;
+}
+
+
+.buttonstyle {
+padding: 5px 10px 5px 10px;
+}
+
+.checkboxstyle {
+ margin-right: 0px !important;
+ margin-left: 10px;
+}
+
+.edittagwidth {
+    width: 185px;
+}
+
+.editdocwidth {
+    width: 185px;
+}
+
+.statustable {
+    width: 800px;
+    margin: auto;
+}
+
+.maincontainer {
+    width: 1600px;
+    margin: auto;
+}
+
+.mydocumentspanelprimary {
+    width: 1400px;
+}
+
+/*.loading {
+    background: url(~/images/loading.gif) no-repeat center;
+    display: block;
+    height: 50px;
+    text-align: center;
+}*/
+
+.borderless tr td {
+    border: none !important;
+    padding: 5px !important;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    color: gray;
+}
+
+/*ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}*/
+
+.input-title {
+    width: 350px;
+    height: 20px;
+}
+
+.input-file {
+    width: 200px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.padding-top {
+    padding-top: 8px;
+}
+
+.padding-bot {
+    padding-bottom: 6px;
+}
+
+.padding-right {
+    padding-left: 12px;
+}
+
+.padding-left-sm {
+    padding-left: 6px;
+}
+
+.padding-left {
+    padding-left: 12px;
+}
+
+.padding-left-lg {
+    padding-left: 24px;
+}
+
+.center {
+    margin: auto;
+}
+
+.checkboxfont {
+    font-size: x-small;
+}
+
+.none {
+    display: none;
+}
+
+.extrarowheight {
+    line-height: 53px;
+}
+
+.tabSelected {
+    color: black !important;
+    background-color: #6d6d6d !important;
+}
+
+.fileInputWidth {
+    width: 400px;
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modalnew {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) url('http://sampsonresume.com/labs/pIkfp.gif') 50% 50% no-repeat;
+    /*background-image: url('images/loading.gif');*/
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden !important;
+}
+
+    /* Anytime the body has the loading class, our
+   modal element will be visible */
+    body.loading .modalnew {
+        display: block !important;
+    }
+
+.nopseudo {
+    content: none !important;
+}
+
+.filestatus {
+    font-weight: 700 !important;
+}
+
+.flvs-table__tags {
+    /*color: #2cace3;*/
+    /*font-size: 8px;*/
+    font-weight: bold;
+    line-height: 0.75;
+    /*margin-left:12px;*/
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+iframe {
+    float: left;
+    height: 800px;
+    width: 600px;
+}
+
+.hide {
+    visibility: hidden;
+}
